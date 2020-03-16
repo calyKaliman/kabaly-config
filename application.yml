@@ -6,4 +6,4 @@ spring:
     url: jdbc:postgresql://localhost/kabaly
   cloud:
     config:
-      uri: http://localhost:8191
+      uri: http://localhost:8888
