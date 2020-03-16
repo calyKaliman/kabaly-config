@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: kabaly-servicio-oauth
   datasource:
     username: postgres
     password: admin
@@ -10,10 +8,10 @@ spring:
     config:
       uri: http://localhost:8191
 	  
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
 	
 	
 #spring:
