@@ -7,33 +7,3 @@ spring:
   cloud:
     config:
       uri: http://localhost:8191
-	  
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:8761/eureka
-	
-	
-#spring:
-#  cloud:
-#    config:
-#      uri: http://localhost:8191
-    
-
-      
-
-#  jpa:
-#    hibernate:
-#      naming:
-#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-#    properties:
-#      hibernate:
-#        show_sql: true
-#        format_sql: true
-    
-#logging:
-#  level:
-#    org:
-#      hibernate:
-#        type: trace
-        
