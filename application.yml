@@ -6,8 +6,7 @@ spring:
     url: jdbc:postgresql://localhost/kabaly
   cloud:
     config:
-      uri: http://localhost:8888
-	  
+      uri: http://localhost:8888  
   jpa:
     hibernate:
       naming:
