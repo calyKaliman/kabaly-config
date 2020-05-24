@@ -7,3 +7,12 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+	  
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
